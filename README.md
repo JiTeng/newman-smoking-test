@@ -4,8 +4,9 @@
 # 如何运行脚本
 采用nodejs脚本，用到了两个插件,安装方法如下：
 ```
-npm install newman --save
-npm install nodemailer --save
+npm install newman
+npm install nodemailer
+npm install newman-reporter-html
 ```
 
 最后执行`node smoke.js`即可查看测试结果。
